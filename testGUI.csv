@@ -1,0 +1,2 @@
+Loan_ID,Gender,Married,Dependents,Education,Self_Employed,ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Property_Area
+LP00431,Male,Yes,0,Graduate,Yes,120.0,1650.0,150.0,360,0,Rural

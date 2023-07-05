@@ -1,0 +1,58 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     loan_final313
+Instances:    887379
+Attributes:   30
+              id
+              year
+              issue_d
+              final_d
+              emp_length_int
+              home_ownership
+              home_ownership_cat
+              income_category
+              annual_inc
+              income_cat
+              loan_amount
+              term
+              term_cat
+              application_type
+              application_type_cat
+              purpose
+              purpose_cat
+              interest_payments
+              interest_payment_cat
+              loan_condition
+              loan_condition_cat
+              interest_rate
+              grade
+              grade_cat
+              dti
+              total_pymnt
+              total_rec_prncp
+              recoveries
+              installment
+              region
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 287.03 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9985
+Mean absolute error                      0.0054
+Root mean squared error                  0.0175
+Relative absolute error                  3.836  %
+Root relative squared error              6.6025 %
+Total Number of Instances           887379     
+
